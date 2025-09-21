@@ -21,7 +21,7 @@ public class Execusion extends HelperClass {
 		driver.findElement(By.name("email")).sendKeys(username);
 		driver.findElement(By.id("pass")).sendKeys(password);
 	//	driver.findElement(By.name("login")).click();
-
+			System.out.println("1st Update");
 	}
 
 	
